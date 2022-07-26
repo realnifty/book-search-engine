@@ -1,14 +1,11 @@
 {
-  "homepage": "http://realnifty.github.io/book-search-engine",
   "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "watch": "nodemon server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "watch": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
